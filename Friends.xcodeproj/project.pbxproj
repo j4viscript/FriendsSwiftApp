@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE60CE2F29B842480016E401 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE60CE2E29B842480016E401 /* SearchView.swift */; };
 		DE63344429B7EFF50064AB37 /* FriendsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63344329B7EFF50064AB37 /* FriendsAppApp.swift */; };
 		DE63344629B7EFF50064AB37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63344529B7EFF50064AB37 /* ContentView.swift */; };
 		DE63344829B7EFF60064AB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE63344729B7EFF60064AB37 /* Assets.xcassets */; };
@@ -14,6 +15,9 @@
 		DE63345529B7EFF60064AB37 /* FriendsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63345429B7EFF60064AB37 /* FriendsAppTests.swift */; };
 		DE63345F29B7EFF60064AB37 /* FriendsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63345E29B7EFF60064AB37 /* FriendsAppUITests.swift */; };
 		DE63346129B7EFF60064AB37 /* FriendsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63346029B7EFF60064AB37 /* FriendsAppUITestsLaunchTests.swift */; };
+		DE63347529B7F9C80064AB37 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63347429B7F9C80064AB37 /* Constant.swift */; };
+		DE63347729B802460064AB37 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63347629B802460064AB37 /* NavigationBarView.swift */; };
+		DE63347929B805610064AB37 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE63347829B805610064AB37 /* LogoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DE63344029B7EFF50064AB37 /* FriendsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE60CE2E29B842480016E401 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		DE63344029B7EFF50064AB37 /* Friends.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friends.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE63344329B7EFF50064AB37 /* FriendsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAppApp.swift; sourceTree = "<group>"; };
 		DE63344529B7EFF50064AB37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE63344729B7EFF60064AB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE63344A29B7EFF60064AB37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DE63345029B7EFF60064AB37 /* FriendsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE63345029B7EFF60064AB37 /* FriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE63345429B7EFF60064AB37 /* FriendsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAppTests.swift; sourceTree = "<group>"; };
-		DE63345A29B7EFF60064AB37 /* FriendsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE63345A29B7EFF60064AB37 /* FriendsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE63345E29B7EFF60064AB37 /* FriendsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAppUITests.swift; sourceTree = "<group>"; };
 		DE63346029B7EFF60064AB37 /* FriendsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE63347429B7F9C80064AB37 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		DE63347629B802460064AB37 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
+		DE63347829B805610064AB37 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +92,9 @@
 		DE63344129B7EFF50064AB37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DE63344029B7EFF50064AB37 /* FriendsApp.app */,
-				DE63345029B7EFF60064AB37 /* FriendsAppTests.xctest */,
-				DE63345A29B7EFF60064AB37 /* FriendsAppUITests.xctest */,
+				DE63344029B7EFF50064AB37 /* Friends.app */,
+				DE63345029B7EFF60064AB37 /* FriendsTests.xctest */,
+				DE63345A29B7EFF60064AB37 /* FriendsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +102,11 @@
 		DE63344229B7EFF50064AB37 /* FriendsApp */ = {
 			isa = PBXGroup;
 			children = (
-				DE63344329B7EFF50064AB37 /* FriendsAppApp.swift */,
-				DE63344529B7EFF50064AB37 /* ContentView.swift */,
+				DE63346D29B7F1CB0064AB37 /* App */,
+				DE63346E29B7F2250064AB37 /* View */,
+				DE63347129B7F86C0064AB37 /* Model */,
+				DE63347229B7F8740064AB37 /* Extension */,
+				DE63347329B7F88B0064AB37 /* Utility */,
 				DE63344729B7EFF60064AB37 /* Assets.xcassets */,
 				DE63344929B7EFF60064AB37 /* Preview Content */,
 			);
@@ -127,12 +138,69 @@
 			path = FriendsAppUITests;
 			sourceTree = "<group>";
 		};
+		DE63346D29B7F1CB0064AB37 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DE63344329B7EFF50064AB37 /* FriendsAppApp.swift */,
+				DE63344529B7EFF50064AB37 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE63346E29B7F2250064AB37 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE63347029B7F8580064AB37 /* Detail */,
+				DE63346F29B7F8160064AB37 /* Home */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE63346F29B7F8160064AB37 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DE63347629B802460064AB37 /* NavigationBarView.swift */,
+				DE63347829B805610064AB37 /* LogoView.swift */,
+				DE60CE2E29B842480016E401 /* SearchView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DE63347029B7F8580064AB37 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		DE63347129B7F86C0064AB37 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE63347229B7F8740064AB37 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DE63347329B7F88B0064AB37 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DE63347429B7F9C80064AB37 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DE63343F29B7EFF50064AB37 /* FriendsApp */ = {
+		DE63343F29B7EFF50064AB37 /* Friends */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE63346429B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsApp" */;
+			buildConfigurationList = DE63346429B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "Friends" */;
 			buildPhases = (
 				DE63343C29B7EFF50064AB37 /* Sources */,
 				DE63343D29B7EFF50064AB37 /* Frameworks */,
@@ -142,14 +210,14 @@
 			);
 			dependencies = (
 			);
-			name = FriendsApp;
+			name = Friends;
 			productName = FriendsApp;
-			productReference = DE63344029B7EFF50064AB37 /* FriendsApp.app */;
+			productReference = DE63344029B7EFF50064AB37 /* Friends.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DE63344F29B7EFF60064AB37 /* FriendsAppTests */ = {
+		DE63344F29B7EFF60064AB37 /* FriendsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE63346729B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsAppTests" */;
+			buildConfigurationList = DE63346729B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsTests" */;
 			buildPhases = (
 				DE63344C29B7EFF60064AB37 /* Sources */,
 				DE63344D29B7EFF60064AB37 /* Frameworks */,
@@ -160,14 +228,14 @@
 			dependencies = (
 				DE63345229B7EFF60064AB37 /* PBXTargetDependency */,
 			);
-			name = FriendsAppTests;
+			name = FriendsTests;
 			productName = FriendsAppTests;
-			productReference = DE63345029B7EFF60064AB37 /* FriendsAppTests.xctest */;
+			productReference = DE63345029B7EFF60064AB37 /* FriendsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DE63345929B7EFF60064AB37 /* FriendsAppUITests */ = {
+		DE63345929B7EFF60064AB37 /* FriendsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DE63346A29B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsAppUITests" */;
+			buildConfigurationList = DE63346A29B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsUITests" */;
 			buildPhases = (
 				DE63345629B7EFF60064AB37 /* Sources */,
 				DE63345729B7EFF60064AB37 /* Frameworks */,
@@ -178,9 +246,9 @@
 			dependencies = (
 				DE63345C29B7EFF60064AB37 /* PBXTargetDependency */,
 			);
-			name = FriendsAppUITests;
+			name = FriendsUITests;
 			productName = FriendsAppUITests;
-			productReference = DE63345A29B7EFF60064AB37 /* FriendsAppUITests.xctest */;
+			productReference = DE63345A29B7EFF60064AB37 /* FriendsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DE63343B29B7EFF50064AB37 /* Build configuration list for PBXProject "FriendsApp" */;
+			buildConfigurationList = DE63343B29B7EFF50064AB37 /* Build configuration list for PBXProject "Friends" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +287,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DE63343F29B7EFF50064AB37 /* FriendsApp */,
-				DE63344F29B7EFF60064AB37 /* FriendsAppTests */,
-				DE63345929B7EFF60064AB37 /* FriendsAppUITests */,
+				DE63343F29B7EFF50064AB37 /* Friends */,
+				DE63344F29B7EFF60064AB37 /* FriendsTests */,
+				DE63345929B7EFF60064AB37 /* FriendsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE63347929B805610064AB37 /* LogoView.swift in Sources */,
 				DE63344629B7EFF50064AB37 /* ContentView.swift in Sources */,
 				DE63344429B7EFF50064AB37 /* FriendsAppApp.swift in Sources */,
+				DE63347729B802460064AB37 /* NavigationBarView.swift in Sources */,
+				DE60CE2F29B842480016E401 /* SearchView.swift in Sources */,
+				DE63347529B7F9C80064AB37 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +356,12 @@
 /* Begin PBXTargetDependency section */
 		DE63345229B7EFF60064AB37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE63343F29B7EFF50064AB37 /* FriendsApp */;
+			target = DE63343F29B7EFF50064AB37 /* Friends */;
 			targetProxy = DE63345129B7EFF60064AB37 /* PBXContainerItemProxy */;
 		};
 		DE63345C29B7EFF60064AB37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DE63343F29B7EFF50064AB37 /* FriendsApp */;
+			target = DE63343F29B7EFF50064AB37 /* Friends */;
 			targetProxy = DE63345B29B7EFF60064AB37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -483,7 +555,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendsApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friends.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Friends";
 			};
 			name = Debug;
 		};
@@ -503,7 +575,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FriendsApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Friends.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Friends";
 			};
 			name = Release;
 		};
@@ -546,7 +618,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DE63343B29B7EFF50064AB37 /* Build configuration list for PBXProject "FriendsApp" */ = {
+		DE63343B29B7EFF50064AB37 /* Build configuration list for PBXProject "Friends" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE63346229B7EFF60064AB37 /* Debug */,
@@ -555,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE63346429B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsApp" */ = {
+		DE63346429B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "Friends" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE63346529B7EFF60064AB37 /* Debug */,
@@ -564,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE63346729B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsAppTests" */ = {
+		DE63346729B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE63346829B7EFF60064AB37 /* Debug */,
@@ -573,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DE63346A29B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsAppUITests" */ = {
+		DE63346A29B7EFF60064AB37 /* Build configuration list for PBXNativeTarget "FriendsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DE63346B29B7EFF60064AB37 /* Debug */,
